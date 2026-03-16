@@ -31,3 +31,10 @@ Poniższy zrzut ekranu z symulatora przedstawia przybliżone zachowanie układu 
 ![simulation](./schematic.png)
 
 Prawdopodobnie przy dodaniu odpowiedniej detekcji (komunikacja przez GPIO) uda się osiągnąć wystarczająco czasu przy stabilnym zasilaniu aby dokonać zapisu niezbędnych danych na karcie SD (i ewentualnie "w miarę bezpiecznie" wyłączyć urządzenie).
+
+# TODO
+
+- [ ] Zaprojektować układ wykrywający zanik zasilania
+- [ ] Zaprojektować PCB
+- [ ] zaimplementować obsdługę sygnału zaniku zasilania (np. jako serwis systemd albo bibliotekę C++ dla ESP32)
+- [ ] zaprojektować i wykonać obudowę

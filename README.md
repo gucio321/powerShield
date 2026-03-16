@@ -26,4 +26,8 @@ aby można było dokonać jednorazowego zapisu pozycji na karcie.
 
 W sklepie LCSC Electronics dostępne są [superkondensatory o pojemności 20F](https://www.lcsc.com/product-detail/C970391.html)
 
+Poniższy zrzut ekranu z symulatora przedstawia przybliżone zachowanie układu w razie zaniku zasilania.
+
 ![simulation](./schematic.png)
+
+Prawdopodobnie przy dodaniu odpowiedniej detekcji (komunikacja przez GPIO) uda się osiągnąć wystarczająco czasu przy stabilnym zasilaniu aby dokonać zapisu niezbędnych danych na karcie SD (i ewentualnie "w miarę bezpiecznie" wyłączyć urządzenie).

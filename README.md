@@ -22,7 +22,7 @@ doprowadzi to do szybkiej degradacji takiej pamięci (w przypadku kart SD około
 Podejście proponowane w projekcie zakłąda podtrzymanie zasilania mikrokomputera przez pewien czas przy jednoczesnym dostarczeniu informacji, tak
 aby można było dokonać jednorazowego zapisu pozycji na karcie.
 
-# Prove of Concept
+# Proof of Concept
 
 W sklepie LCSC Electronics dostępne są [superkondensatory o pojemności 20F](https://www.lcsc.com/product-detail/C970391.html)
 
